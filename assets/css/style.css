@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.header {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/1st.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.responsivenav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: #202C45;
+}
+.nav-colored{
+  background-color: #202C45;
+}
+.text-prime{
+  color: #202C45;
+}
+.bg-prime{
+  background-color: #202C45;
+}
+.header-icon{
+  background-color: #202C45;
+  color: white;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.getappointbtn{
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 10rem;
+  border:none;
+}
+.activetxt{
+  color: #c82845 !important;
+}
+.navbar-nav{
+  margin-left: 3rem;
+}
+.text-dng{
+  color: #DA0F09;
+}
+.carousel-caption{
+  top:30%;
+  
+}
+.fs-70{
+  font-size: 70px;
+}
+.slidebtn{
+  text-decoration: none;
+  color: white;
+  background-color: #DA0F09;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-radius: 4rem;
+}
+.about-us{
+  top: 20%;
+  translate: (-50%);
+}
