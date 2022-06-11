@@ -64,10 +64,42 @@ body{
   padding: 1rem 1.5rem 1rem 1.5rem;
   border-radius: 4rem;
 }
+
+.slidebtn1{
+  text-decoration: none;
+  color: white;
+  background-color: #DA0F09;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-radius: 4rem;
+  transition: 0.8s;
+}
 .about-us{
   top: 20%;
   translate: (-50%);
 }
 .servicescount{
   padding: 10rem;
+}
+.planbtn{
+  text-decoration: none;
+  color: red;
+  background-color: #202C45;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-radius: 4rem;
+  transition: 0.8s;
+}
+
+.activeplan{
+  background-color: white;
+  box-shadow: 2px 2px 5px #d9d6d8, -2px -2px 5px #d9d6d8;
+  height: 420px;
+  padding: 1rem;
+}
+.slidebtn1:hover{
+  color:red;
+  background-color:#202C45
+}
+.planbtn:hover{
+  color:white;
+  background-color:red;
 }
