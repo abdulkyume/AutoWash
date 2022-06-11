@@ -103,3 +103,11 @@ body{
   color:white;
   background-color:red;
 }
+.washpointform{
+  background-color: red;
+  padding: 3rem;
+  width: 100%;
+}
+#button-addon1{
+  border-radius: 1rem;
+}
