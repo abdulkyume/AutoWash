@@ -111,3 +111,45 @@ body{
 #button-addon1{
   border-radius: 1rem;
 }
+.srbtn{
+  transition: 0.8s;
+}
+.srbtn:hover{
+  background-color: #202C45;
+  color: white;
+}
+.imgcard{
+  width: 250px;
+}
+.sociallinks{
+  position: absolute;
+  top: 69%;
+  left: 10%;
+}
+.sociallinks li{
+  background-color: #202C45;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 0.3rem;
+}
+.imgcard:hover .imgcardetails{
+  background-color: #DA0F09;
+}
+.imgcard:hover .sociallinks li{
+  background-color: #DA0F09;
+}
+
+.imgcard{
+  transition: 0.5s;
+}
+.teamimg img{
+  transition: 0.5s;
+}
+.imgcardetails{
+  transition: 0.5s;
+}
+.imgcard:hover img{
+  transform: scale(1.1);
+}
